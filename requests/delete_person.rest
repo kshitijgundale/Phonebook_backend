@@ -1,0 +1,22 @@
+PUT http://localhost:3001/api/persons/60465ffeef8c9f3c4861e89b
+Content-Type: application/json
+
+{
+    "name": "Walter White",
+    "number": 34234
+}
+
+###
+GET http://localhost:3001/info
+
+###
+DELETE http://localhost:3001/api/persons/60470614e3a556395ce85ee4
+
+###
+POST  http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Walter Jr",
+    "number": 232131
+}
